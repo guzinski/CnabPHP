@@ -51,7 +51,7 @@ class Identifier
             }
         } elseif ($bytes == 240) {
             $codigo_banco = \substr($lines[0], 0, 3);
-            $codigo_tipo = \substr($lines[0],  142, 1);
+            $codigo_tipo = \substr($lines[0],  143, 1);
             $tipo = null;
 
             // Pega a Versao do Layout da CEF 
